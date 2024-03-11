@@ -14,8 +14,6 @@ export const calculateBlockWidth = (
   total: number,
   currentSize: number
 ): number => {
-  console.log("test ==>", total);
-
   return (currentSize * 100) / total;
 };
 
